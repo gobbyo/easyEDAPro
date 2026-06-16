@@ -205,3 +205,38 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# -----------------------------
+# EasyEDA Pro – ignore backups
+# -----------------------------
+backup*.zip
+*.zip
+
+# -----------------------------
+# Autosave / cache / temp files
+# -----------------------------
+.autosave/
+.cache/
+temp/
+tmp/
+
+# -----------------------------
+# Generated manufacturing files
+# (Gerbers, drill, NC, etc.)
+# -----------------------------
+*.gbr
+*.gtl
+*.gts
+*.gto
+*.gbl
+*.gbs
+*.gbo
+*.drl
+*.nc
+*.svg
+*.pdf
+
+# -----------------------------
+# Simulation outputs
+# -----------------------------
+sim/
